@@ -1,0 +1,32 @@
+[
+  {
+    "id": "0",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/6/6/6684cc8e38977c977cfa97320dbb02b0-medium.jpg?v=1",
+    "cardTitle": "Title1",
+    "cardShortDesc": "Short desc1",
+    "cardLongDesc": "Long Desc1"
+  },
+  {
+    "id": "1",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/8/7/8776c92b94cda28b21f87a3a79862cca-medium.jpg?v=1",
+    "cardTitle": "Title2",
+    "cardShortDesc": "Short desc2",
+    "cardLongDesc": "Long Desc2"
+  },
+  {
+    "id": "2",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/4/f/4f7a77a5801bd2cf990355a166824baa-medium.jpg?v=3",
+    "cardTitle": "Title3",
+    "cardShortDesc": "Short desc3",
+    "cardLongDesc": "Long Desc3"
+  },
+  {
+    "id": "3",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/a/2/a2f78a40faec527e481577f9ecd8007b-medium.jpg?v=3",
+    "cardTitle": "Title4",
+    "cardShortDesc": "Short desc4",
+    "cardLongDesc": "Long Desc4"
+  }
+]
+
+

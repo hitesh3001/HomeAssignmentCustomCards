@@ -1,9 +1,21 @@
 
-const actionTypes = {
-  FETCH_CARDS: 'FETCH_CARDS',
-  OPEN_CARD: 'OPEN_CARD',
-  DELETE_CARD: 'DELETE_CARD',
-  PRINT_CARD: 'PRINT_CARD'
+import cardData from '../cardData.json'
+import {FETCH_CARDS, OPEN_CARD, DELETE_CARD, PRINT_CARD} from '../constants/actionConstants'
+
+export const fetchCards = () => {
+  return dispatch => {
+    dispatch({
+      type: FETCH_CARDS,
+      data: cardData
+    })
+  }
 }
 
-export const fetch
+export const deleteCard = (index) => {
+  return dispatch => {
+    dispatch({
+      type: DELETE_CARD,
+      data: index
+    })
+  }
+}
