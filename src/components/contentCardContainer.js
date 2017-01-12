@@ -26,6 +26,7 @@ class ContentCardContainer extends Component {
   }
 }
 
+//Redux store mappings for action and data.
 const mapStateToProps = (state) => {
   const { contentCardReducer : {contentCardData} } = state
   return {contentCardData}

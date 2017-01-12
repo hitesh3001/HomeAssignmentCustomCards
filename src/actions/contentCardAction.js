@@ -1,6 +1,6 @@
 
 import cardData from '../cardData.json'
-import {FETCH_CARDS, OPEN_CARD, DELETE_CARD, PRINT_CARD} from '../constants/actionConstants'
+import { FETCH_CARDS, DELETE_CARD } from '../constants/actionConstants'
 
 export const fetchCards = () => {
   return dispatch => {

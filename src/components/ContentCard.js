@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import ContentInteraction from './ContentInteraction'
 import classNames from 'classnames'
 
@@ -11,10 +11,7 @@ export default class ContentCard extends Component {
     }
   }
 
-  handleClick = () => {
-    alert('hi')
-  }
-
+  /** Mouse Events **/
   handleMouseEnter = (e) => {
     this.setState({isHovered: true})
   }
@@ -22,6 +19,7 @@ export default class ContentCard extends Component {
   handleMouseLeave = (e) => {
     this.setState({isHovered: false})
   }
+  /** **/
 
   render() {
     let cardStyle = classNames({
@@ -29,14 +27,15 @@ export default class ContentCard extends Component {
       'card-hover': this.state.isHovered
     });
 
-    let interactionStyle = classNames({
-      "interactions": true,
-      "btn-group": true,
-      "hidden": !this.state.isHovered
+    let headerStyle = classNames({
+      "header-hover": this.state.isHovered,
+      "card-title": true
     })
+
     return(
-      <div className="col-lg-3 col-sm-6 col-xs-12">
-        <div className={cardStyle} onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+      <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div className={cardStyle} onMouseEnter={this.handleMouseEnter}
+          onMouseLeave={this.handleMouseLeave} onMouseOver={this.handleMouseEnter}>
           <div className="card-content">
             <div className="text-center">
               <ContentInteraction
@@ -46,15 +45,15 @@ export default class ContentCard extends Component {
                 id={this.props.id}
               />
             </div>
-              <div className="card-title">
-                <h2><span className="glyphicon glyphicon-camera"></span>{this.props.cardTitle}</h2>
+              <div className={headerStyle}>
+                <h3><span className="glyphicon glyphicon-camera"></span>{this.props.cardTitle}</h3>
               </div>
               <div className="card-desc">
                 <p>{this.props.cardShortDesc}</p>
               </div>
           </div>
           <div className="card-image">
-            <img className="img-responsive" src={this.props.cardURL} />
+            <img className="img-responsive" src={this.props.cardURL} alt="Image here"/>
           </div>
         </div>
       </div>

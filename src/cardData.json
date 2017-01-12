@@ -2,29 +2,85 @@
   {
     "id": "0",
     "cardURL": "//cdn.podravka.net/repository/images/_variations/6/6/6684cc8e38977c977cfa97320dbb02b0-medium.jpg?v=1",
-    "cardTitle": "Title1",
-    "cardShortDesc": "Short desc1",
+    "cardTitle": "Pickles",
+    "cardShortDesc": "Marinated in vinegar",
     "cardLongDesc": "Long Desc1"
   },
   {
     "id": "1",
     "cardURL": "//cdn.podravka.net/repository/images/_variations/8/7/8776c92b94cda28b21f87a3a79862cca-medium.jpg?v=1",
-    "cardTitle": "Title2",
-    "cardShortDesc": "Short desc2",
+    "cardTitle": "Jam",
+    "cardShortDesc": "Made with fresh strawberries",
     "cardLongDesc": "Long Desc2"
   },
   {
     "id": "2",
     "cardURL": "//cdn.podravka.net/repository/images/_variations/4/f/4f7a77a5801bd2cf990355a166824baa-medium.jpg?v=3",
-    "cardTitle": "Title3",
-    "cardShortDesc": "Short desc3",
+    "cardTitle": "Dessert",
+    "cardShortDesc": "For the sweet tooth",
     "cardLongDesc": "Long Desc3"
   },
   {
     "id": "3",
     "cardURL": "//cdn.podravka.net/repository/images/_variations/a/2/a2f78a40faec527e481577f9ecd8007b-medium.jpg?v=3",
-    "cardTitle": "Title4",
-    "cardShortDesc": "Short desc4",
+    "cardTitle": "Noodles",
+    "cardShortDesc": "Authenthic Chinese Dish",
+    "cardLongDesc": "Long Desc4"
+  },
+  {
+    "id": "4",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/a/0/a0cf4d8377042e5fd845ff2255731cf5-medium.jpg?v=2",
+    "cardTitle": "Greek Salad",
+    "cardShortDesc": "With lots of olive goodness",
+    "cardLongDesc": "Long Desc1"
+  },
+  {
+    "id": "5",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/8/1/814465760f496b422e323a4e9b47620d-medium.jpg?v=3",
+    "cardTitle": "Green Tea",
+    "cardShortDesc": "Dose of Anti Oxidants",
+    "cardLongDesc": "Long Desc2"
+  },
+  {
+    "id": "6",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/9/8/9875bbd2405df84c84ce25b469ed04a2-medium.jpg?v=2",
+    "cardTitle": "French Fries",
+    "cardShortDesc": "All time favorite",
+    "cardLongDesc": "Long Desc3"
+  },
+  {
+    "id": "7",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/e/1/e1370f8aef950a8172bc4a134bb5f016-medium.jpg?v=1",
+    "cardTitle": "Muselli",
+    "cardShortDesc": "For the Health Freak",
+    "cardLongDesc": "Long Desc4"
+  },
+  {
+    "id": "8",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/e/7/e74bd6906bc43129cd87352b55456d2e-medium.jpg?v=1",
+    "cardTitle": "Stuffed Capsicum",
+    "cardShortDesc": "Yummm...",
+    "cardLongDesc": "Long Desc1"
+  },
+  {
+    "id": "9",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/a/9/a91a2c0c12811cd6c60bd15aa5e99830-medium.jpg?v=2",
+    "cardTitle": "Potato salad",
+    "cardShortDesc": "Vegan friendly",
+    "cardLongDesc": "Long Desc2"
+  },
+  {
+    "id": "10",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/2/d/2d8de1bebe19e50a350bd3d9a9f9e420-medium.jpg?v=1",
+    "cardTitle": "Pasta",
+    "cardShortDesc": "With Red Sauce!",
+    "cardLongDesc": "Long Desc3"
+  },
+  {
+    "id": "11",
+    "cardURL": "//cdn.podravka.net/repository/images/_variations/d/e/de83c718c45b4995ffa6d249b24255e6-medium.jpg?v=1",
+    "cardTitle": "Mutton",
+    "cardShortDesc": "Full of Proteins",
     "cardLongDesc": "Long Desc4"
   }
 ]

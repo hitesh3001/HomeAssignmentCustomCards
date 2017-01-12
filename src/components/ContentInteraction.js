@@ -1,7 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import classNames from 'classnames'
-import { connect } from 'react-redux';
-
 
 export default class ContentInteraction extends Component {
 
@@ -17,6 +15,11 @@ export default class ContentInteraction extends Component {
     },500)
 
   }
+
+  handleOpenClick = () => {
+    window.open(this.props.cardURL);
+  }
+
   render() {
     let interactionStyle = classNames({
       "interactions": true,
@@ -25,7 +28,10 @@ export default class ContentInteraction extends Component {
     })
     return(
       <div className={interactionStyle}>
-        <button type="button" className="btn btn-default"><span className="glyphicon glyphicon-heart"></span>Open</button>
+        <button type="button" className="btn btn-default" onClick={this.handleOpenClick}>
+          <span className="glyphicon glyphicon-heart"></span>
+          Open
+        </button>
         <button type="button" className="btn btn-default" onClick={this.handleDeleteClick}>
           <span className="glyphicon glyphicon-remove"></span>
           Delete
