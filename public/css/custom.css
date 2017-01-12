@@ -1,0 +1,113 @@
+div {
+ box-sizing: border-box;
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  position: relative;
+  font-size: 1.5em;
+  width: 250px;
+  height: 250px;
+}
+.card span.card-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card .card-image {
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.card .card-image:before{
+    background: url("http://cdn.podravka.net/images/topic-listing-gradient.png") bottom center repeat-x;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    content: "";
+    z-index: 1;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.card .card-image img {
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+.card-title,.card-desc {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.card-desc {
+    top: 100px;
+    height: 100px;
+}
+
+.card-content{
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.card-content p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+}
+
+.glyphicon{
+ padding-right: 10px;
+}
+
+.card-hover{
+  background: grey;
+}
+
+.card-hover img {
+    -moz-filter: blur(5px);
+     -o-filter: blur(5px);
+     -ms-filter: blur(5px);
+     filter: blur(5px);
+     transform: scale(1.33);
+}
+
+.interactions {
+  margin: 0;
+  padding: 5px;
+}
+
+.interactions button {
+  padding: 5px;
+  background-color: #bd081c;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #efefef;
+  text-shadow: none;
+}
